@@ -1,4 +1,6 @@
-FROM oraclelinux:latest
+#FROM oraclelinux:latest
+
+FROM yamamon/centos7-minimal
 
 MAINTAINER Felipe Quintella <docker-puppet@felipe.quintella.email>
 
