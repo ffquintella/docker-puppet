@@ -5,4 +5,6 @@
 Simple docker files wiht puppet embedded to be user as a provision tool in the image creation process.
 
 
-# THIS IMAGE IS NOT READY FOR USE YET !!!
+## Beta version of the image.
+
+Please report any bugs
