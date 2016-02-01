@@ -13,4 +13,5 @@ RUN rpm -ivh https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm ;
      yum clean all
 
 # Instalando o puppet
-RUN yum -y install puppet-agent
+RUN yum -y install puppet-agent ; \
+ yum clean all
