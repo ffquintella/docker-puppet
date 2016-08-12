@@ -8,6 +8,6 @@ Simple docker files with puppet embedded to be user as a provision tool in the i
 
 ## Versions.
 
-* 1.0.1 - Centos 7 - minimal - Puppet 1.6.0-1
+* 1.0.2 - Centos 7 - minimal - Puppet 1.6.0-1
 
 Please report any bugs
