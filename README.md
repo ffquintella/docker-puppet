@@ -12,4 +12,8 @@ Simple docker files with puppet embedded to be user as a provision tool in the i
 * 1.1.1 - Centos 7 - minimal - Puppet 1.7.0-1
 * 1.0.2 - Centos 7 - minimal - Puppet 1.6.0-1
 
+## Tags
+
+- systemd - systemd enabled version
+
 Please report any bugs

@@ -1,4 +1,4 @@
-FROM yamamon/centos7-minimal
+FROM centos/systemd
 
 MAINTAINER Felipe Quintella <docker-puppet@felipe.quintella.email>
 
