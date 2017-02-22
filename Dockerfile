@@ -2,7 +2,7 @@ FROM yamamon/centos7-minimal
 
 MAINTAINER Felipe Quintella <docker-puppet@felipe.quintella.email>
 
-LABEL version="1.1.2"
+LABEL version="1.1.3"
 LABEL description="This is the base image used to build other images with puppet."
 
 # Updating everthing
