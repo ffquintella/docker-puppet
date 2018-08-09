@@ -1,4 +1,4 @@
-FROM yamamon/centos7-minimal
+FROM openshift/base-centos7:latest
 
 MAINTAINER Felipe Quintella <docker-puppet@felipe.quintella.email>
 
@@ -12,5 +12,5 @@ RUN yum -y update; yum -y install vim-minimal
 RUN rpm -ivh https://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm
 
 # Installing puppet and cleanup
-RUN yum -y install puppet-agent ; \
+RUN yum -y install puppet ; \
  yum clean all
