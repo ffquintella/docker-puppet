@@ -8,7 +8,8 @@ This code is subject to the GNU GPL License as described in the LICENSE file
 Simple docker files with puppet embedded to be user as a provision tool in the image creation process.
 
 ## Versions.
-* 1.3.1 - Update 
+* 1.4.1 - Update - Puppet 5.5
+* 1.3.1 - Update
 * 1.2.1 - Update
 * 1.1.3 - Update
 * 1.1.2 - Update
