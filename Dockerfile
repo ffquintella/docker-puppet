@@ -1,14 +1,14 @@
-FROM centos:7
+FROM centos:8
 
 MAINTAINER Felipe Quintella <docker-puppet@felipe.quintella.email>
 
-LABEL version="1.5.1"
+LABEL version="8.7.1"
 LABEL description="This is the base image used to build other images with puppet."
 
 
 # Installing the puppet repo
 RUN yum -y update; rm -rf /etc/yum.repos.d/puppetlabs.repo; \
-rpm -Uvh https://yum.puppet.com/puppet6/puppet6-release-el-7.noarch.rpm; \
+rpm -Uvh https://yum.puppet.com/puppet7/puppet-release-el-8.noarch.rpm; \
 yum -y install puppet ; \
 ln -s /opt/puppetlabs/bin/puppet /usr/local/bin/puppet ; \
 yum clean all; \
