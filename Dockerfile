@@ -1,8 +1,8 @@
-FROM centos:8
+FROM rockylinux:8
 
 MAINTAINER Felipe Quintella <docker-puppet@felipe.quintella.email>
 
-LABEL version="8.7.2"
+LABEL version="8.7.16"
 LABEL description="This is the base image used to build other images with puppet."
 
 
