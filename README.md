@@ -8,6 +8,8 @@ This code is subject to the GNU GPL License as described in the LICENSE file
 Simple docker files with puppet embedded to be user as a provision tool in the image creation process.
 
 ## Versions.
+* 8.8.2 - Update - Small upgrades
+* 8.8.1 - Update - Puppet 7 changed base image to rocky linux 8
 * 1.5.1 - Update - Puppet 6.1 changed base image to centos 7 official
 * 1.4.1 - Update - Puppet 5.5
 * 1.3.1 - Update
