@@ -1,4 +1,4 @@
-FROM rockylinux:8
+FROM rockylinux:8.7-minimal
 
 MAINTAINER Felipe Quintella <docker-puppet@felipe.quintella.email>
 
