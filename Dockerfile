@@ -1,6 +1,6 @@
-FROM rockylinux:9.1
+FROM rockylinux:9.2
 
-MAINTAINER Felipe Quintella <docker-puppet@felipe.quintella.email>
+LABEL MAINTAINER Felipe Quintella <docker-puppet@felipe.quintella.email>
 
 LABEL version="r9p8.1"
 LABEL description="This is the base image used to build other images with puppet."
